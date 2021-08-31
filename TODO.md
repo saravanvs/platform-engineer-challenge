@@ -16,7 +16,7 @@ Note: The API URL is `api.github.com/orgs/microsoft/repos`.
 6. Create a Github Action called `Runner`. The Action must:
   - Execute on every push to the `main` branch.
   - Build a Docker image using the included Dockerfile.
-  - Run the Docker image using the `API_URL` secret.
+  - Run the app in a container, using the `API_URL` secret.
 7. Test the `Runner` Action by pushing to `main`. 
   - Run the Action until the Action logs show the output from the app (i.e. a list of repo summaries). 
 8. (Bonus) Disable pull request merges unless the `CI` Action succeeds without errors. 
