@@ -1,0 +1,21 @@
+{
+  "name": "platform-reference",
+  "version": "1.0.0",
+  "description": "Reference app for Platform Engineer challenge",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npm install",
+    "start": "node src/index.js",
+    "test": "mocha"
+  },
+ "repository": {
+    "type": "git",
+    "url": "git@github.com:giantmachines/platform-engineer-reference.git"
+  },
+  "author": "Tom Ragle",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "9.1.1",
+    "node-fetch": "2.6.1"
+  }
+}
